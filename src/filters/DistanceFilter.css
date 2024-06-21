@@ -1,0 +1,68 @@
+.distance-filter {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-button {
+  background: #8a4abf;
+  color: white;
+  border: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.caret {
+  margin-left: 5px;
+}
+
+.dropdown-content {
+  display: block; /* this is what determines if it pops up or not */
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  padding: 10px;
+  border-radius: 10px;
+  top: 40px;
+}
+
+/* .distance-filter:hover .dropdown-content {
+  display: block;
+} */
+
+.horizontal-slider {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.thumb {
+  height: 20px;
+  width: 20px;
+  background-color: #8a4abf;
+  border-radius: 50%;
+  cursor: grab;
+}
+
+.track {
+  top: 50%;
+  height: 4px;
+  background: #ddd;
+}
+
+.slider-values {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px;
+}
+
+.apply-button {
+  background: #8a4abf;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
